@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#left_button, #right_button {
+    cursor: pointer;
+    background: none;
+    position: absolute;
+    color: white;
+    aspect-ratio: 1/1;
+    border: 0;
+    padding: 5%;
+    font-size: 5vi;
+    text-shadow: 0 0 0.1em black;
+}
+
+#right_button {
+    right: 0;
+}
+
+#left_button {
+    left: 0;
+}
